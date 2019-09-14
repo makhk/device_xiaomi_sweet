@@ -19,6 +19,7 @@
 
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
+#pragma push_macro("PROPERTY_VALUE_MAX")
 #include <cutils/properties.h>
 #include <string.h>
 
@@ -43,4 +44,5 @@ inline const char* BtmGetDefaultName()
 #define BT_CLEAN_TURN_ON_DISABLED 1
 
 #define AVDT_NUM_SEPS 35
+#pragma pop_macro("PROPERTY_VALUE_MAX")
 #endif
