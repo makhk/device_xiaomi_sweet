@@ -25,3 +25,6 @@ ro.com.google.ime.kb_pad_port_b=1
 
 # Bluetooth
 ro.bluetooth.library_name=libbluetooth_qti.so
+
+# Charger
+ro.charger.enable_suspend=true
