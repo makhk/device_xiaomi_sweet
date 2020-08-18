@@ -147,3 +147,9 @@ on boot
 
 on property:vendor.usb.mimode=*
     setprop persist.vendor.usb.config ${vendor.usb.mimode}
+
+on property:ro.persistent_properties.ready=true    
+
+    # Report max frequency to unity tasks
+    write /proc/sys/kernel/sched_lib_name "UnityMain,libunity.so"
+    write /proc/sys/kernel/sched_lib_mask_force 255
