@@ -5,6 +5,9 @@ ro.secure=0
 ro.debuggable=1
 ro.control_privapp_permissions=log
 
+# Bluetooth
+persist.bluetooth.disableabsvol=true
+
 # Blur
 ro.sf.blurs_are_expensive=1
 ro.surface_flinger.supports_background_blur=1
