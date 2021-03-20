@@ -161,7 +161,6 @@ vendor/bin/ATFWD-daemon
 vendor/bin/athdiag
 vendor/bin/audioflacapp
 vendor/bin/batteryd
-vendor/bin/batterysecret
 vendor/bin/btconfig
 vendor/bin/cameratest
 vendor/bin/capture_headset.sh
@@ -462,7 +461,6 @@ vendor/etc/init/imsqmidaemon.rc
 vendor/etc/init/imsrcsd.rc
 vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/init/init.batteryd.rc
-vendor/etc/init/init.batterysecret.rc
 vendor/etc/init/init.charge_logger.rc
 vendor/etc/init/init.embmssl_server.rc
 vendor/etc/init/init.fpc1540_ko.rc
@@ -2281,8 +2279,9 @@ vendor/lib64/camera/com.qti.tuned.sweet_sunny_s5kgw3_wide.bin|7aa84734cc9b341e09
 # From NX627J 20201029.204053
 vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
 
-# Power-off charging daemon
-bin/charger
+# Batterysecret
+vendor/bin/batterysecret
+vendor/etc/init/init.batterysecret.rc
 
 # Camera provider
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
@@ -2290,3 +2289,6 @@ vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 
 # Alarm
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
+
+# Power-off charging daemon
+bin/charger
