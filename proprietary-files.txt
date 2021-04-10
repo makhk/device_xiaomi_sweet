@@ -2286,3 +2286,7 @@ vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
 
 # Power-off charging daemon
 bin/charger
+
+# Camera provider
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
