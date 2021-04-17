@@ -57,7 +57,16 @@
             <meta-data android:name="com.android.settings.category"
                        android:value="com.android.settings.category.ia.sound" />
         </activity>
+        <activity
+            android:name=".color.KcalSettingsActivity"
+            android:theme="@style/Theme.Main"
+            android:label="@string/kcal_settings_title">
 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 </manifest>
 
