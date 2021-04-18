@@ -2283,3 +2283,6 @@ vendor/lib64/camera/com.qti.tuned.sweet_sunny_s5kgw3_wide.bin|7aa84734cc9b341e09
 
 # From NX627J 20201029.204053
 vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
+
+# Power-off charging daemon
+bin/charger
