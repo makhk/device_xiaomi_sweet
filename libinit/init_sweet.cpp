@@ -106,8 +106,8 @@ static const char *snet_prop_key[] = {
 
 
 void vendor_load_properties() {
-    const char *fingerprint = "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys";
-    const char *description = "dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys";
+    const char *fingerprint = "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys";
+    const char *description = "redfin-user 11 RQ3A.210605.005 7349499 release-keys";
     const bool is_global = (GetProperty("ro.boot.hwc", "UNKNOWN") == "GLOBAL");
     const bool is_pro = (GetProperty("ro.boot.product.hardware.sku", "UNKNOWN") != "std");
     workaround_snet_properties();
