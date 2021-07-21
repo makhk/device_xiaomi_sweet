@@ -125,7 +125,8 @@ PRODUCT_PACKAGES += \
     NotchBarKiller \
     WifiOverlay \
     SweetinproSettingsProvider \
-    SweetinproWifiOverlay
+    SweetinproWifiOverlay \
+    SettingsOverlay
     
 # Permissions
 PRODUCT_COPY_FILES += \
