@@ -2290,3 +2290,6 @@ bin/charger
 # Camera provider
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+
+# Alarm
+-product/app/PowerOffAlarm/PowerOffAlarm.apk
