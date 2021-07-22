@@ -12,7 +12,6 @@ framework/tcmclient.jar
 # system_ext
 -system_ext/app/datastatusnotification/datastatusnotification.apk
 -system_ext/app/DeviceInfo/DeviceInfo.apk
--system_ext/app/embms/embms.apk
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/bin/dpmd
 system_ext/bin/wfdservice
@@ -25,7 +24,6 @@ system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml
 system_ext/etc/permissions/dpmapi.xml
-system_ext/etc/permissions/embms.xml
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/telephonyservice.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
@@ -40,7 +38,6 @@ system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
 system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar
 system_ext/framework/com.qualcomm.qti.uceservice-V2.2-java.jar
 system_ext/framework/dpmapi.jar
-system_ext/framework/embmslibrary.jar
 system_ext/framework/qcrilhook.jar
 system_ext/framework/qti-telephony-common.jar
 system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar
