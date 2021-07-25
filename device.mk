@@ -343,4 +343,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# Use 64-bit dex2oat for better dexopt time.
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dex2oat64.enabled=true
+
 include vendor/xiaomi/sweet/sweet-vendor.mk
