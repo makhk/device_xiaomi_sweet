@@ -106,8 +106,8 @@ static const char *snet_prop_key[] = {
 
 
 void vendor_load_properties() {
-    const char *fingerprint = "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys";
-    const char *description = "redfin-user 11 RQ3A.210605.005 7349499 release-keys";
+    const char *fingerprint = "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys";
+    const char *description = "redfin-user 11 RQ3A.210705.001 7380771 release-keys";
     const bool is_global = (GetProperty("ro.boot.hwc", "UNKNOWN") == "GLOBAL");
     const bool is_pro = (GetProperty("ro.boot.product.hardware.sku", "UNKNOWN") != "std");
     workaround_snet_properties();
