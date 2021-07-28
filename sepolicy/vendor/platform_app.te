@@ -1,0 +1,2 @@
+# FPS Info
+allow platform_app vendor_sysfs_graphics:file { getattr open read };
