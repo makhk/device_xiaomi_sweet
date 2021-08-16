@@ -351,4 +351,23 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat64.enabled=true
 
+# GPS
+PRODUCT_PACKAGES += \
+     android.hardware.gnss@2.1-impl-qti \
+     android.hardware.gnss@2.1-service-qti
+
+PRODUCT_PACKAGES += \
+     gps.conf \
+     flp.conf \
+     gnss_antenna_info.conf \
+     libloc_pla_headers \
+     liblocation_api_headers \
+     libgps.utils_headers \
+     liblocation_api \
+     libgps.utils \
+     libbatching \
+     libgeofencing \
+     libloc_core \
+     libgnss
+
 include vendor/xiaomi/sweet/sweet-vendor.mk
