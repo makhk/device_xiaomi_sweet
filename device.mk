@@ -7,6 +7,9 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 # Dynamic partitions setup
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# ANXCamera
+$(call inherit-product-if-exists, vendor/ANXCamera/config.mk)
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
