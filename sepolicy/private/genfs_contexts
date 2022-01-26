@@ -1,0 +1,2 @@
+# Smart Charging
+genfscon sysfs /sys/class/power_supply/battery/input_suspend           u:object_r:vendor_sysfs_battery_supply:s0

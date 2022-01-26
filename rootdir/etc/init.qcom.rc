@@ -68,3 +68,8 @@ on property:vendor.post_boot.parsed=1
 on property:sys.boot_completed=1
     # Enable ZRAM on boot_complete
     swapon_all /vendor/etc/fstab.default
+
+on boot
+    # SMART CHARGING
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0660 /sys/class/power_supply/battery/input_suspend
