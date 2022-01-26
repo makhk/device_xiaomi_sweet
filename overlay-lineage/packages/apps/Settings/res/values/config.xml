@@ -21,4 +21,17 @@
 
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
+
+    <!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
+
+    <!-- Smart Charging enable -->
+    <bool name="config_supportSmartCharging">true</bool>
+
+    <!-- Battery Health enable -->
+    <bool name="config_supportBatteryHealth">true</bool>
+
+    <!-- Smart Cutoff -->
+    <bool name="config_supportSmartCutoff">true</bool>
+
 </resources>
