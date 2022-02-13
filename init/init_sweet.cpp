@@ -138,6 +138,9 @@ void vendor_load_properties() {
     property_override("ro.boot.verifiedbootstate", "green");
     property_override("ro.boot.flash.locked", "1");
 
+    fingerprint = "google/raven/raven:12/SQ1D.220205.003/8069835:user/release-keys";
+    description = "raven-user 12 SQ1D.220205.003 8069835 release-keys";
+
     set_ro_build_prop("fingerprint", fingerprint);
     set_ro_product_prop("device", device);
     set_ro_product_prop("model", model);
