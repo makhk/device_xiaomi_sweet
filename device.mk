@@ -1,3 +1,6 @@
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
+
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
